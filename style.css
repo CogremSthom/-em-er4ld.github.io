@@ -1,8 +1,10 @@
 body{
-	
-	
+	font-size:30px;
+	font-style:sans-serif
 }
 h1{
 	font-size:64px;
-	color:#1d612e
+}
+vert{
+	color:#1d612e;
 }
