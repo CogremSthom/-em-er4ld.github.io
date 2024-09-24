@@ -1,3 +1,4 @@
+24/09/24 : https://cogremsthom.github.io/-em-er4ld.github.io/
 23/09/24 : il faut écrire "&lt;em&gt;er4ld" pour obtenir notre logo, mettre "<" et ">" sera considéré par HTML comme la vrai balise.
 
 à faire :
