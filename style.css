@@ -1,10 +1,60 @@
-body{
-	font-size:30px;
-	font-style:sans-serif
-}
 h1{
 	font-size:64px;
 }
 vert{
 	color:#1d612e;
 }
+body {
+        font-size:30px;    
+	margin: 0;
+        font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #326e6c; /* Dark teal color */
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+        }
+
+        .menu li {
+            display: inline;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #d1d1d1; /* Light gray on hover */
+        }
+
+        .search-form input[type="search"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .search-form {
+            display: flex;
+        }
