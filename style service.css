@@ -11,100 +11,100 @@ header {
     padding: 10px 0;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
 
-nav ul li {
-    margin: 0 15px;
-}
+    nav ul li {
+        margin: 0 15px;
+    }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #e0f2f1;
+    }
+    
+    .hero img {
+        width: 100px;
+    }
+    
+    .hero h1 {
+        font-size: 3em;
+        margin: 20px 0;
+    }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #e0f2f1;
-}
+    .hero p {
+        font-size: 1.2em;
+        color: #555;
+    }
+    
+    .intro, .services-preview {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    .intro h2, .services-preview h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .intro p {
+        font-size: 1.1em;
+        max-width: 600px;
+        margin: 0 auto 20px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #376d6a;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
 
-.hero img {
-    width: 100px;
-}
-
-.hero h1 {
-    font-size: 3em;
-    margin: 20px 0;
-}
-
-.hero p {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.intro, .services-preview {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.intro h2, .services-preview h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.intro p {
-    font-size: 1.1em;
-    max-width: 600px;
-    margin: 0 auto 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #376d6a;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.btn:hover {
-    background-color: #2e5757;
-}
-
-.services-preview {
-    background-color: #e0f2f1;
-}
-
-.service-card {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.service-card h3 {
-    margin-top: 0;
-}
-
-footer {
-    background-color: #376d6a;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.service-card:hover {
-    transform: scale(1.05);
-}
+    .btn:hover {
+        background-color: #2e5757;
+    }
+    
+    .services-preview {
+        background-color: #e0f2f1;
+    }
+    
+    .service-card {
+        display: inline-block;
+        width: 30%;
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .service-card h3 {
+        margin-top: 0;
+    }
+    
+    footer {
+        background-color: #376d6a;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .service-card:hover {
+        transform: scale(1.05);
+    }
 
